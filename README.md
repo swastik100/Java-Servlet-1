@@ -12,7 +12,7 @@ Steps are:
 5. From bin extract servlet.tar file  to location where you put your java file (in xyz folder).
 6. Compile java file and paste it's class file in webapps/examples/web-inf/classes.
 7. Update xml file(/webapps/examples/web-inf) by adding:
-      <servlet>
+     ``` <servlet>
       <servlet-name>balia</servlet-name>
       <servlet-class>myClass</servlet-class> 
       
@@ -20,8 +20,8 @@ Steps are:
     <servlet-mapping>
       <servlet-name>balia</servlet-name>
       <url-pattern>/bc</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping> ``` 
     
-    8. Restart the server if reqired.
-    9. Enter http://localhost:8080/xyz/add.html to run the servlet.
+8. Restart the server if reqired.
+9. Enter http://localhost:8080/xyz/add.html to run the servlet.
 
