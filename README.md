@@ -19,7 +19,7 @@ Steps are:
     </servlet>
     <servlet-mapping>
       <servlet-name>balia</servlet-name>
-      <url-pattern>/bc</url-pattern>
+      <url-pattern>/bc</url-pattern> <!-- add the url pattern to form action--->
     </servlet-mapping> ``` 
     
 8. Restart the server if reqired.
